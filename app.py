@@ -10,19 +10,19 @@ import plotly.express as px
 st.title('Twitter sentimental analysis')
 sentence = st.text_input('Enter your Topic','topic or text')
 
+
 attributes_container = []
 
 for i,tweet in enumerate(sntwitter.TwitterSearchScraper(sentence).get_items()):
-    if i>100:
+    if i>300:
         break
-    attributes_container.append([tweet.date, tweet.likeCount, tweet.sourceLabel, tweet.rawContent])
+    attributes_container.append([tweet.date, tweet.likeCount, tweet.sourceLabel, tweet.rawContent, tweet.lang])
     
-tweets_df = pd.DataFrame(attributes_container, columns=["Date Created", "Number of Likes", "Source of Tweet", "Tweets"])
+tweets_df1 = pd.DataFrame(attributes_container, columns=["Date Created", "Number of Likes", "Source of Tweet", "Tweets","Tweet_lang"])
+tweets_df=tweets_df1[tweets_df1["Tweet_lang"]=="en"]
 print(tweets_df)
-print(tweets_df['Tweets'][0])
 
-if st.checkbox('show tweets'):
-    st.write(tweets_df.head(10))
+
 
 
 def sentiment_scores(sentence):
@@ -45,6 +45,22 @@ def sentiment_scores(sentence):
 		st.write("😐 Neutral")
 
 sentiment_scores(sentence)
+if st.checkbox('show tweets'):
+    st.write(tweets_df.head(10))
+
+username=st.text_input('Enter username','your name')
+
+attributes_container1=[]
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper(f'from:${username}').get_items()):
+    if i>100:
+        break
+    attributes_container1.append([tweet.date, tweet.likeCount, tweet.sourceLabel, tweet.rawContent, tweet.lang])
+        
+tweets_df2 = pd.DataFrame(attributes_container1, columns=["Date Created", "Number of Likes", "Source of Tweet", "Tweets","Tweet_lang"])
+    
+sentiment_scores(tweets_df2['Tweets'][7])
+if st.checkbox('show tweets1'):
+    st.write(tweets_df2.head(10))
 
 # def sentiment_article(url):
 #     senti=[]
