@@ -5,7 +5,13 @@
 
 Natural Language Processing (NLP) is a branch of artificial intelligence that deals with textual and speech data. It is the technology that is used by machines to understand, analyze, and process human language and extract important useful information from it.
 
+🔼**Prerequisite to Learn NLP**
 
+Below are the important skills you need to have if you want to learn concepts of NLP.
+
+Python Programming Language
+Basic Machine Learning Algorithms
+Knowledge of neural networks if you want to use deep learning models like RNN, and LSTM.
 
 🔼**Application of NLP**
 
