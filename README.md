@@ -10,3 +10,5 @@ Welcome to the NLP session , Today you will be building a hands-on streamlit web
 [Kaggle course](https://www.kaggle.com/learn)
 
 [Analytics vidhya NLP course](https://courses.analyticsvidhya.com/courses/Intro-to-NLP)
+
+🔼Checkout - GUIDE.md for NLP 2023 Guide
