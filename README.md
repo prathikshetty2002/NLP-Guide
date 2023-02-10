@@ -75,3 +75,7 @@ You will see something like this interface on your localhost!
 **You can read the streamlit docs to follow up with the hands-on it is a life-saver✅**
 
 [Streamlit Docs](https://docs.streamlit.io/)
+
+
+
+🔼**Checkout the NLP Guide for 2023** - [GUIDE.md](https://github.com/prathikshetty2002/NLP-Guide/blob/main/GUIDE.md) for NLP 2023 Guide
