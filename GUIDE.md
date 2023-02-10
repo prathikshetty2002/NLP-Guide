@@ -148,3 +148,13 @@ Below are a few questions you may be having in your mind if you are planning to 
 
 ➡️ To be honest, learning basic NLP is very easy. But learning the advanced NLP is comparatively challenging, but the outcomes you see with deep learning especially Transformers and Bert are mindblowing.
 
+
+🔼**Resources**
+
+[Awesome-NLP](https://github.com/keon/awesome-nlp)
+
+[Kaggle course](https://www.kaggle.com/learn)
+
+[Analytics vidhya NLP course](https://courses.analyticsvidhya.com/courses/Intro-to-NLP)
+
+🔼**Checkout the NLP Guide for 2023** - [GUIDE.md](https://github.com/prathikshetty2002/NLP-Guide/blob/main/GUIDE.md) for NLP 2023 Guide
