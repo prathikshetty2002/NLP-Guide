@@ -5,7 +5,13 @@
 
 Natural Language Processing (NLP) is a branch of artificial intelligence that deals with textual and speech data. It is the technology that is used by machines to understand, analyze, and process human language and extract important useful information from it.
 
+🔼**Prerequisite to Learn NLP**
 
+Below are the important skills you need to have if you want to learn concepts of NLP.
+
+Python Programming Language
+Basic Machine Learning Algorithms
+Knowledge of neural networks if you want to use deep learning models like RNN, and LSTM.
 
 🔼**Application of NLP**
 
@@ -142,3 +148,13 @@ Below are a few questions you may be having in your mind if you are planning to 
 
 ➡️ To be honest, learning basic NLP is very easy. But learning the advanced NLP is comparatively challenging, but the outcomes you see with deep learning especially Transformers and Bert are mindblowing.
 
+
+🔼**Resources**
+
+[Awesome-NLP](https://github.com/keon/awesome-nlp)
+
+[Kaggle course](https://www.kaggle.com/learn)
+
+[Analytics vidhya NLP course](https://courses.analyticsvidhya.com/courses/Intro-to-NLP)
+
+🔼**Checkout the NLP Guide for 2023** - [GUIDE.md](https://github.com/prathikshetty2002/NLP-Guide/blob/main/GUIDE.md) for NLP 2023 Guide
