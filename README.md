@@ -11,4 +11,4 @@ Welcome to the NLP session , Today you will be building a hands-on streamlit web
 
 [Analytics vidhya NLP course](https://courses.analyticsvidhya.com/courses/Intro-to-NLP)
 
-🔼Checkout - GUIDE.md for NLP 2023 Guide
+🔼Checkout - [GUIDE.md](https://github.com/prathikshetty2002/NLP-Guide/blob/main/GUIDE.md) for NLP 2023 Guide
