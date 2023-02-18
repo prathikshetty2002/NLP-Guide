@@ -81,3 +81,9 @@ You will see something like this interface on your localhost!
 [Click here](https://prathikshetty2002-nlp-guide-for-beginners-app-0yhv3l.streamlit.app/)
 
 🔼**Checkout the NLP Guide for 2023** - [GUIDE.md](https://github.com/prathikshetty2002/NLP-Guide/blob/main/GUIDE.md) for NLP 2023 Guide
+
+**Connect with me**💫
+
+[twitter](https://twitter.com/I_am_prathik)
+[linkedln](https://www.linkedin.com/in/prathik-shetty15/)
+[github](https://github.com/prathikshetty2002/)
